@@ -13,6 +13,7 @@ const Feed = ({ user }) => {
       if (infinite) {
         const scroll = window.scrollY; // Total de scroll na página
         const height = document.body.offsetHeight - window.innerHeight; // total de area que possa dar scroll
+        // Aciona 
         if (scroll > height * 0.75 && !wait) {
           setPages((pages) => [...pages, pages.length + 1]);
           wait = true;
