@@ -6,6 +6,7 @@ import Button from "../../Forms/Button/Button";
 import Input from "../../Forms/Input/Input";
 import Error from '../../../components/Helper/Error'
 import { useNavigate } from "react-router";
+import Head from "../../Helper/Head/Head";
 
 const LoginPasswordReset = () => {
   const [login, setLogin] = React.useState("");
@@ -35,8 +36,8 @@ const LoginPasswordReset = () => {
 
   return (
     <div>
+      <Head title="Reset a senha"/>
       <h1 className="title">Resete a senha</h1>
-
       <form onSubmit={handleSubmit}>
         <Input
           label="Nova senha"

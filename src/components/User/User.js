@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { UserContext } from '../../contexts/UserContext'
 import Feed from '../Feed/Feed'
+import Head from '../Helper/Head/Head'
 import NotFound from '../NotFound/NotFound'
 import UserHeader from './UserHeader/UserHeader'
 import UserPhotoPost from './UserPhotoPost/UserPhotoPost'
@@ -13,6 +14,7 @@ const User = () => {
 
   return (
     <section className="container">
+      <Head title="Minha Conta"/>
       <UserHeader/>
       <Routes>
         <Route path="/" element={<Feed user={data.id}/>}/>

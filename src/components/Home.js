@@ -1,10 +1,11 @@
 import React from 'react'
 import Feed from './Feed/Feed'
-import Loading from './Helper/Loading/Loading'
+import Head from '../components/Helper/Head/Head'
 
 const Home = () => {
   return (
     <section className="container mainContainer">
+      <Head title="Fotos" description="Home do site Dogs, com feed de fotos"/>
       <Feed/>
     </section>
   )

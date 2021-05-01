@@ -4,7 +4,8 @@ import { PHOTO_GET } from "../../api/api";
 import useFetch from "../../hooks/useFetch";
 import Error from "../../components/Helper/Error";
 import Loading from "../../components/Helper/Loading/Loading";
-import PhotoContent from './PhotoContent/PhotoContent'
+import PhotoContent from "./PhotoContent/PhotoContent";
+import Head from "../Helper/Head/Head";
 
 const Photo = () => {
   const { id } = useParams();
@@ -17,9 +18,13 @@ const Photo = () => {
 
   if (error) return <Error />;
   if (loading) return <Loading />;
-  if (data) return (
-    <section className="container mainContainer"><PhotoContent single={true} data={data}/></section>
-  );
+  if (data)
+    return (
+      <section className="container mainContainer">
+        <Head title={data.photo.title} />
+        <PhotoContent single={true} data={data} />
+      </section>
+    );
   else return null;
 };
 
