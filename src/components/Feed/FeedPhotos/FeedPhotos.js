@@ -2,7 +2,7 @@ import React from "react";
 import { PHOTOS_GET } from "../../../api/api";
 import useFetch from "../../../hooks/useFetch";
 import Error from "../../Helper/Error";
-import Loading from "../../Helper/Loading";
+import Loading from "../../Helper/Loading/Loading";
 import FeedPhotoItem from "../FeedPhotoItem/FeedPhotoItem";
 import styles from "./FeedPhotos.module.css";
 
@@ -18,7 +18,7 @@ const FeedPhotos = ({setModalPhoto}) => {
   }, [request]);
 
   if (error) return <Error error={error} />;
-  if (loading) return <Loading />;
+  if (loading) return <Loading/>;
   if (data)
     return (
       <ul className={`${styles.feed} animeLeft`}>
