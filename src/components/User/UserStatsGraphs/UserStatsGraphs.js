@@ -18,7 +18,7 @@ const UserStatsGraphs = ({ data }) => {
     );
     setGraph(graphData);
     console.log(total);
-  }, [data]);
+  }, [data, total]);
 
   return (
     <section className={`${styles.graph} animeLeft`}>
