@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./.github/app.jpg" alt="Dogs" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  &#xa0;
 
-## Available Scripts
+  <!-- <a href="https://dogs.netlify.com">Demo</a> -->
+</div>
 
-In the project directory, you can run:
+<h1 align="center">Dogs</h1>
 
-### `yarn start`
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/weescoelho/dogs?color=56BEB8">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/weescoelho/dogs?color=56BEB8">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/weescoelho/dogs?color=56BEB8">
 
-### `yarn test`
+  <img alt="Licença" src="https://img.shields.io/github/license/weescoelho/dogs?color=56BEB8">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/weescoelho" target="_blank">Autor</a>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :dart: Sobre ##
 
-### `yarn eject`
+Dogs é uma rede social para cachorros construída com React.js
+A construção deste web app é um marco para mim, pois foi onde aprendi os principais conceitos de React.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Foi consumido uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários e muito mais!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :sparkles: Funcionalidades ##
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:heavy_check_mark: Cadastrar uma nova conta;\
+:heavy_check_mark: Postagem de fotos;\
+:heavy_check_mark: Feed de fotos;\
+:heavy_check_mark: Comentários;\
+:heavy_check_mark: Relatório de acessos;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :rocket: Tecnologias ##
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://pt-br.reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :white_check_mark: Pré requisitos ##
 
-### Code Splitting
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :checkered_flag: Começando ##
 
-### Analyzing the Bundle Size
+```bash
+# Clone este repositório
+$ git clone https://github.com/weescoelho/dogs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Entre na pasta
+$ cd dogs
 
-### Making a Progressive Web App
+# Instale as dependências
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Para iniciar o projeto
+$ yarn start
 
-### Advanced Configuration
+# O app vai inicializar em <http://localhost:3000>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## :memo: Licença ##
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feito com :heart: por <a href="https://github.com/weescoelho" target="_blank">Weslley Coelho</a>
 
-### `yarn build` fails to minify
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Voltar para o topo</a>
